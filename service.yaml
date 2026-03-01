@@ -4,7 +4,7 @@ metadata:
   name: nginx-test
   namespace: argocd-test
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
     app: nginx-test
   ports:

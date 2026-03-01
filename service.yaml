@@ -4,7 +4,7 @@ metadata:
   name: nginx-test
   namespace: argocd-test
 spec:
-  type: ClusterIP
+  type: Nodeport
   selector:
     app: nginx-test
   ports:
